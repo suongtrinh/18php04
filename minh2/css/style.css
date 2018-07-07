@@ -1,0 +1,159 @@
+body{
+	background :#777777;
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+
+#main{
+    width: 1200px;
+    border: 3px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    background: url(../img/bia.jpg);
+    height: 250px;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+#head-link{
+     height: 30px;
+     line-height: 30px;
+
+     border: 1px solid #CDCDCD;
+     background-color: #000000;
+     margin-bottom:5px;
+     clear: both;
+}
+#menu ul {
+    background:#000000;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    position:relative;
+}
+#menu ul li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 195px;
+    height: 30px;
+    position: relative;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #FF0000;
+    display: block;
+}
+#menu ul li a:hover {
+    background:green;
+    color:#FFF;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+.submenu {
+ display: none;
+ position: absolute;
+}
+#menu ul li > .submenu{
+    display:none;
+}
+#menu ul li:hover .submenu{
+    display:block;
+    position:absolute;
+}
+#left{
+	 background-image:url(../img/bia.jpg);
+     width: 124px;
+     min-height: 900px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-bottom: 5px;
+}
+#content{
+     width: 750px;
+     height: 900px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+     background: #EEEEEE;
+}
+#right{
+     width: 310px;
+     min-height: 900px;
+     border: 1px solid #CDCDCD;
+     float:right;
+     margin-bottom: 5px;
+}
+#chuchay {
+    width: 310px;
+    height: 20px;
+    font-size: 20px;
+    background: red;
+    text-align: center;
+    vspace="100px";
+}
+#footer{
+    background: red;
+     margin: auto;
+     width: 1200px;
+     height: 150px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+}
+.box1 {
+    padding-top: 20px;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    box-shadow:  5px 5px #555;
+    width: 700px;
+    height: 150px;
+}
+.box2{
+    padding-top: 30px;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    box-shadow:  5px 5px #555;
+    width: 700px;
+    height: 150px;
+
+}
+#bot {
+    margin-bottom: 50px;
+    width: 750px;
+    border: 2px;
+    height: 20px;
+}
+.anhtt {
+    margin-right: 10px;
+    width: 200px;
+    height: 150px;
+    float: left;
+
+}
+#gachngang1 {
+     width: 750px;
+     border-bottom: 5px solid #000099;
+}
+#tieude{
+    font-family: verdana;
+    color: red;
+    display: block;
+    margin-bottom:-8px;
+}
+.trailer {
+    padding-left: :  4px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana;
+}
+.noidung {
+    font-size: 15px;
+    text-indent: 30px;
+    font-family: Verdana;
+}

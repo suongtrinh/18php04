@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: myfont;
+	src: url(Mijas-Ultra.otf); 
+}
+body{
+	width: 80%;
+	height: 1230px;
+	margin: 0 auto;
+	border: 5px solid yellow;
+	font-size: 25px;
+}
+header{
+	background-color: #fff;
+	height: 450px !important;
+	text-align: center;
+	font-family: myfont;
+
+}
+header #mune_top{
+	background: #141414;
+	height: 40px;
+}
+header #menu_top ul{
+	margin: 0px;
+	padding: 0px;
+}
+header #menu_top ul li{
+	list-style: none;
+	float: left;
+}
+ header #menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	padding: 0px 20px;
+	border-right: 1px solid #ccc;
+}
+header #menu_top ul li a.active{
+	background: #1949b5;
+}
+section{
+	height: 600px;
+	background-color: #CCCC99;
+	text-align: left;
+}
+#main p{
+	margin-bottom: 20px;
+	font-family: myfont;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#FFCC99{
+	text-align: justify;
+	text-transform: uppercase;
+	text-indent: 30px;
+	text-shadow: 3px 5px 7px;
+	font-size: 35px;
+}
+p{
+	color: red;
+	font-size: 35px;
+	line-height: 50px;
+}
+#left{
+	background-color: #666666;
+	width: 20%;
+	height: 595px;
+	border: 1px solid #CDCDCD;
+	float: left;
+}
+footer{
+	background: green;
+	height: 150px;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 30px;
+}
+#main #left ul{
+	margin: -15px 0px 0px;
+	padding: 0px;
+	border: 1px solid #ccc;
+}
+#main #left ul li{
+	list-style: none;
+}
+#main #left ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 45px;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	background: url(mh.png) no-repeat 2px;
+	text-indent: 30px;
+	color: #000;
+	font-size: 14px;
+}
+#main #left ul li a:hover{
+	color: orange;
+}
+#main #left h3{
+	background: #194d58 no-repeat 3px;
+	height: 40px;
+	margin-top: 0px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #fff;
+	text-indent: 35px;
+}
+#main #right p{
+	color: #663300;
+	font-size: 25px;
+	text-decoration: underline;
+
+}
+#main #right{
+	padding-left: 250px;
+}
+#main #right #imgleft{
+	float: left;
+	padding-left: 30px;
+}
+#main #right #imgright{
+	float: right;
+	padding-top: 70px;
+	padding-right: 100px;
+
+}
