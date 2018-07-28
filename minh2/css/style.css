@@ -1,26 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
 	background :#777777;
     font-family: Arial, Tahoma;
     font-size: 12px;
+    display: block;
+    height: 1230px;
 }
-
+ul li{
+    list-style-type: none;
+}
 #main{
     width: 1200px;
+    height: auto;
     border: 3px;
     padding: 2px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    position: relative;
 }
 #head{
-    background: url(../img/bia.jpg);
+    background: url(../img/banner.jpg);
     height: 250px;
     border: 1px solid #CDCDCD;
     margin-bottom:5px;
 }
+.search{
+    top:40px;
+    left: 20px;
+    position: absolute;
+}
 #head-link{
      height: 30px;
      line-height: 30px;
-
      border: 1px solid #CDCDCD;
      background-color: #000000;
      margin-bottom:5px;
@@ -58,7 +71,7 @@ body{
  display: none;
  position: absolute;
 }
-#menu ul li > .submenu{
+#menu ul li .submenu{
     display:none;
 }
 #menu ul li:hover .submenu{
@@ -66,30 +79,70 @@ body{
     position:absolute;
 }
 #left{
-	 background-image:url(../img/bia.jpg);
-     width: 124px;
+	 background-image:url(../img/.jpg);
+     width: 220px;
      min-height: 900px;
      border: 1px solid #CDCDCD;
      float:left;
      margin-bottom: 5px;
 }
+#main #left h3{
+    background: #194d58 no-repeat 3px;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-indent: 35px;
+}
+#main #left ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background: url(mh.png) no-repeat 2px;
+    text-indent: 30px;
+    color: #000;
+    font-size: 14px;
+}
+#main #left ul li a:hover{
+    color: orange;
+}
 #content{
-     width: 750px;
-     height: 900px;
+     width: 60%px;
+     /*height: 900px;*/
      border: 1px solid #CDCDCD;
      float:left;
      margin-left: 5px;
-     margin-right: 5px;
+     margin-sright: 5px;
      margin-bottom: 5px;
      background: #EEEEEE;
 }
-#right{
-     width: 310px;
+.clear{
+    clear:both;
+}
+#righ{
+    background-image:url(../img/.jpg);
+     width: 220px;
      min-height: 900px;
-     border: 1px solid #CDCDCD;
-     float:right;
+     border: 1px solid red;
+     float:left;
      margin-bottom: 5px;
 }
+#main #right h3{
+    background: orange no-repeat 3px;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-indent: 35px;
+}
+#main #right ul li a:hover{
+    color: orange;
+}
+
 #chuchay {
     width: 310px;
     height: 20px;
@@ -134,7 +187,6 @@ body{
     width: 200px;
     height: 150px;
     float: left;
-
 }
 #gachngang1 {
      width: 750px;
@@ -156,4 +208,35 @@ body{
     font-size: 15px;
     text-indent: 30px;
     font-family: Verdana;
+}
+#footer{
+    background: green;
+    height: 150px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+@media screen and (max-width: 768px){
+      #left, #content{
+        width: 50%;
+        float: left;
+      }
+      #head, #footer, #menu ul li a{
+        width: 100%;
+        float: left;
+      }
+      #right{
+        display: none;
+      } 
+}
+@media screen and (max-width: 480px){
+      #left, #content{
+        width: 100%;
+        float: left;
+      }
+     #head, #footer, #menu ul li a{
+        width: 100%;
+        float: left;
+      }
 }
