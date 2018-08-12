@@ -1,0 +1,13 @@
+#salary{
+	width: 380px;
+	margin: 0 auto;
+	border: 1px solid red;
+	height: 300px;
+}
+.cal{
+	border: 5px solid green;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	float: left;
+}
