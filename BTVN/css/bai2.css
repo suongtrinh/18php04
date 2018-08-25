@@ -1,7 +1,7 @@
 #play{
 	position: relative;
-	margin-bottom: 15px;
-	height: 150px;
+	margin-bottom: 10px;
+	height: 200px;
 	background-color: #CDCDCD;
 }
 #prince img{
@@ -17,25 +17,25 @@
 #prince{
 	position: absolute;
 	float: left;
-	margin: 15px;
+	margin: 10px;
 	top: 0;
 	left: 0;
 }
 #princess{
 	position: absolute;
 	float: right;
-	margin: 15px;
+	margin: 10px;
 	top: 0;
 	right: 0;
 }
 #flower img{
-	width: 15px;
-	height: 15px; 
+	width: 20px;
+	height: 20px; 
 }
 #button{
-	margin:150px 600px;
+	margin:100px 400px;
 	float: left;
 }
 input[type=submit]{
-	width: 70px;
+	width: 60px;
 }
